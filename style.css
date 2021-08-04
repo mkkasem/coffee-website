@@ -1,0 +1,95 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  scroll-behavior: smooth;
+}
+
+.Home{
+    background-image: url(pictures/bg.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+#home-page > div{
+  height: 400px;
+  padding-bottom: 80px;
+}
+#left-home{
+
+  padding-top:4%; 
+  padding-left: 8% !important;
+}
+h3{
+  color: #e09e71;
+}
+
+nav li .nav-link,.navbar-brand{
+  color: #f0c5a9 !important;
+  margin-left:30px ;
+}
+
+footer,.navgi{
+  background-color: rgba(170, 112, 3, 0.7) !important;
+ 
+}
+
+#product-page{
+  background-color: #7c6a5d; color: #d1a30a;
+  padding-bottom: 20px;
+}
+#about-us{
+  background-color: #b6a396;
+   height: 500px;
+   max-height: 500px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+h1{
+  color: #e4b416;
+}
+
+.hoverable:hover{
+  color: rgb(238, 196, 57) !important;
+  transform:translateY(-5px);
+  transition-delay: .2s;
+}
+
+.active{
+    background-color: black !important;
+}
+
+ /*footer style*/
+ footer nav button{
+    border-radius: 100% !important; 
+    transition: all .5s ease-in-out !important;
+  }
+
+  .fa{
+    font-size: 30px;
+  }
+  .fa:hover{
+    color: white;
+  }
+  footer nav button:nth-child(1):hover {
+    
+    transform: translateY(-15px);
+    
+    background-color: #3b5998;
+    
+  }
+  footer nav button:nth-child(2):hover{
+    transform: translateY(-15px);
+    background-color: #55acee;
+  }
+  footer nav button:nth-child(3):hover{
+    transform: translateY(-15px);
+    background-color: #e4405f;
+  }
+  
+  footer nav button:nth-child(4):hover{
+    transform: translateY(-15px);
+    background-color: #0077b5;
+  }
+  

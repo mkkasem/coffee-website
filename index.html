@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="style.css">
+
+    <title>Coffee site</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    
+  <!--navigation bar-->
+  <div class="container-fluid "  >
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top navgi" >
+        <a class="navbar-brand"> 
+            <img src="pictures/logo.png" class="hoverable"  alt="Logo" style="width:40px;cursor: pointer;">
+        </a>
+        <button class="navbar-toggler"  data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> 
+        <div id="my-nav" class="collapse navbar-collapse">
+          <ul class="navbar-nav  ml-auto ">
+            <li class="nav-item">
+              <a class="nav-link hoverable" href="#" >Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item  "    >
+              <a class="nav-link hoverable" href="#product-page" tabindex="-1" >Products</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link  hoverable" href="#about-us" tabindex="-1" aria-disabled="true">About us</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link  hoverable" href="#myModal" tabindex="-1" aria-disabled="true" data-toggle="modal"  >Call us </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+   </div>
+
+  <!--Home page-->
+  <div class=" Home container-fluid" style="width: 100%;" id="home-page">
+        <div class=" col-lg-7">
+            <div class="row d-flex" style="padding-top:20% ;">
+              <h3>
+                <span style="font-size: 300%;color: #e4b416;">C</span>
+                 offee is a beverage that puts <br>  &nbsp; &nbsp; &nbsp; &nbsp; one to sleep when not drank.</h3>  
+            </div>
+            <div class="row " id="left-home">
+              <button class="btn btn-lg w-25  btn-outline-warning " type="button"  data-toggle="modal" data-target="#myModal">
+                Call us
+              </button>    
+            </div>
+          </div>
+        <div class="col-lg-5 " ></div>
+   </div>
+
+  <!-- product page -->
+  <div class="container-fluid" id="product-page">
+    <h1>Products</h1>
+    <br>
+    <!-- Nav pills -->
+    <ul class="nav nav-tabs" role="tablist" >
+      <li class="nav-item" >
+        <a class="nav-link active" data-toggle="pill" href="#espresso"style="color: inherit;">Espresso</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#latte" style="color: inherit;">Latte</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#coffee" style="color: inherit;">Coffee</a>
+      </li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <!-- Espresso slides -->
+      <div id="espresso" class="container tab-pane active"><br>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="pictures/espresso/espresso1.jpg" class="rounded" alt="espresso" width="100%" height="500px">
+              <div class="carousel-caption">
+                <h3>Taste</h3>
+                <p>Magical taste</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="pictures/espresso/espresso2.jpg" class="rounded" alt="espresso" width="100%" height="500px">
+              <div class="carousel-caption">
+                <h3>Color</h3>
+                <p>Color of beauty!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="pictures/espresso/espresso3.jpg" class="rounded" alt="espresso" width="100%" height="500px">
+              <div class="carousel-caption">
+                <h3>Price</h3>
+                <p>great prices!</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev   " href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon "></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+        <!-- latte slides -->
+      <div id="latte" class="container tab-pane fade">
+        <div id="demo1" class="carousel slide" data-ride="carousel"><br>
+          <ul class="carousel-indicators">
+            <li data-target="#demo1" data-slide-to="0" class="active"></li>
+            <li data-target="#demo1" data-slide-to="1"></li>
+            <li data-target="#demo1" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="pictures/latte/Latte1.jpg" class="rounded" alt="latte" width="100%" height="500px">
+              <div class="carousel-caption">
+                <h3>Taste</h3>
+                <p>Magical taste</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="pictures/latte/latte2.jpg" class="rounded" alt="latte" width="100%" height="500px">
+              <div class="carousel-caption">
+                <h3>Color</h3>
+                <p>Color of beauty!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="pictures/latte/latte3.jpg" class="rounded" alt="latte" width="100%" height="500px">
+              <div class="carousel-caption">
+                <h3>Price</h3>
+                <p>great prices!</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev   " href="#demo1" data-slide="prev">
+            <span class="carousel-control-prev-icon "></span>
+          </a>
+          <a class="carousel-control-next" href="#demo1" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+        <!-- coffee slides -->
+      <div id="coffee" class="container tab-pane fade"><br>
+          <div id="demo2" class="carousel slide" data-ride="carousel"><br>
+            <ul class="carousel-indicators">
+              <li data-target="#demo2" data-slide-to="0" class="active"></li>
+              <li data-target="#demo2" data-slide-to="1"></li>
+              <li data-target="#demo2" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="pictures/coffee/coffee1.jpg" class="rounded" alt="coffee" width="100%" height="500px">
+                <div class="carousel-caption">
+                  <h3>Taste</h3>
+                  <p>Magical taste</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="pictures/coffee/coffee2.jpg" class="rounded" alt="coffee" width="100%" height="500px">
+                <div class="carousel-caption">
+                  <h3>Color</h3>
+                  <p>Color of beauty!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="pictures/coffee/coffee3.jpg" class="rounded" alt="coffee" width="100%" height="500px">
+                <div class="carousel-caption">
+                  <h3>Price</h3>
+                  <p>great prices!</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+              <span class="carousel-control-prev-icon "></span>
+            </a>
+            <a class="carousel-control-next" href="#demo2" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+    </div>
+   </div>
+
+  <!-- Modal -->
+  <div class="modal " id="myModal" role="dialog">
+      <div class="modal-dialog"> 
+        <!-- Modal content-->
+        <div class="modal-content" style="background-color: #372417;color:#f0c5a9">
+          <div class="modal-header">
+            <h4><span class="glyphicon glyphicon-lock"></span> Contact us</h4>
+  
+            <button type="button" class="close" data-dismiss="modal">×</button>
+          </div>
+          <div class="modal-body">
+            <form role="form" action="https://www.starbucks.com.tr/">
+              <div class="form-group">
+                <label for="usrname"><span class="glyphicon glyphicon-user"></span> Product name</label>
+                <input type="text" class="form-control" id="usrname" placeholder="" required>
+              </div>
+              
+              <div class="form-group" >
+                <label for="psw" ><span class="glyphicon glyphicon-shopping-cart"></span> Product quantity</label>
+                <input type="number" class="form-control" id="psw" placeholder="" required>
+              </div>
+              <div class="form-group">
+                <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+                <input type="text" class="form-control" id="usrname" placeholder="Enter email" required>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-block btn-warning" >Pay 
+                  <span class="glyphicon glyphicon-ok"></span>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer d-flex justify-content-between">
+            <button type="submit" class="btn btn-danger  " data-dismiss="modal">
+              <span class="glyphicon glyphicon-remove "></span> Cancel
+            </button>
+            <p >Need <a href="#">help?</a></p>
+          </div>
+        </div>
+      </div>
+   </div>
+     
+  <!-- About us -->
+  <div class="container-fluid d-flex align-items-center"  id="about-us"> 
+    
+      <div class="row">       
+        <div class="  col-lg-6 col-md-6 "  >
+          <div class="container " >
+            <div class="row d-flex justify-content-center">
+              <h1 >Our Mission</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, deleniti. <br>
+                  
+              </p>      
+            </div>  
+            <div class="row d-flex justify-content-center">
+              <h1 >Our Promise</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, deleniti. <br>
+                 
+                 </p> 
+            </div>
+          </div>
+        </div> 
+        <div class="  col-lg-6 col-md-6"  >
+          <div class="container" >
+            <div class="row d-flex justify-content-center">
+              <h1 >Our Essence</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, deleniti.</p>      
+            </div>  
+            <div class="row d-flex justify-content-center" >
+              <h1  >Our Vibe &nbsp; &nbsp;</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, deleniti.</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+   </div>
+
+     <!-- footer -->
+  <footer class="container-fluid  "  >
+      <nav class="nav d-flex justify-content-center align-items-center"  >
+        <button class="btn btn-lg" type="button"><i class="fa fa-facebook" aria-hidden="true"> </i></button>
+        <button class="btn btn-lg" type="button"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+        <button class="btn btn-lg" type="button"><i class="fa fa-instagram" aria-hidden="true"></i></button>
+        <button class="btn btn-lg" type="button"><i class="fa fa-linkedin" aria-hidden="true"></i></button>
+       </nav>    
+   </footer>
+</body>
+</html>
